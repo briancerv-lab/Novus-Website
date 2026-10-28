@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgRes" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F4F0" />
+      <stop offset="100%" stop-color="#E5E1D8" />
+    </linearGradient>
+    <linearGradient id="oakWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C69C6D" />
+      <stop offset="100%" stop-color="#9E7348" />
+    </linearGradient>
+    <linearGradient id="stoneTop" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FAF9F6" />
+      <stop offset="100%" stop-color="#DFDDD6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgRes)" />
+  <!-- Subtle architectural grid -->
+  <g stroke="#D9DEE3" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="600" />
+    <line x1="720" y1="0" x2="720" y2="600" />
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="460" x2="800" y2="460" />
+  </g>
+  <!-- Exposed Ceiling Beam -->
+  <rect x="80" y="60" width="640" height="32" fill="url(#oakWood)" />
+  <!-- Tall Steel-Frame Patio Window (Left) -->
+  <rect x="110" y="130" width="180" height="330" fill="#DCE6EE" stroke="#1F252B" stroke-width="6" />
+  <line x1="200" y1="130" x2="200" y2="460" stroke="#1F252B" stroke-width="4" />
+  <line x1="110" y1="240" x2="290" y2="240" stroke="#1F252B" stroke-width="4" />
+  <line x1="110" y1="350" x2="290" y2="350" stroke="#1F252B" stroke-width="4" />
+  <!-- Custom Rift-Sawn White Oak Cabinetry Wall (Right) -->
+  <rect x="330" y="130" width="360" height="330" fill="url(#oakWood)" stroke="#6E4E2E" stroke-width="2" />
+  <!-- Backsplash Niche -->
+  <rect x="380" y="210" width="260" height="110" fill="#F5F4F0" stroke="#D9DEE3" stroke-width="2" />
+  <!-- Architectural Range Hood -->
+  <polygon points="440,130 580,130 595,210 425,210" fill="#EAE6DF" stroke="#C8C2B8" stroke-width="2" />
+  <!-- Cabinetry Vertical Reveal Lines -->
+  <g stroke="#5C3F22" stroke-width="2" opacity="0.65">
+    <line x1="380" y1="130" x2="380" y2="460" />
+    <line x1="445" y1="320" x2="445" y2="460" />
+    <line x1="510" y1="320" x2="510" y2="460" />
+    <line x1="575" y1="320" x2="575" y2="460" />
+    <line x1="640" y1="130" x2="640" y2="460" />
+  </g>
+  <!-- Foreground Waterfall Stone Kitchen Island -->
+  <rect x="190" y="370" width="440" height="145" fill="url(#oakWood)" />
+  <polygon points="180,350 640,350 640,375 205,375 205,515 180,515" fill="url(#stoneTop)" stroke="#C8C2B8" stroke-width="2" />
+  <polygon points="615,350 640,350 640,515 615,515" fill="url(#stoneTop)" stroke="#C8C2B8" stroke-width="2" />
+  <!-- Brushed Bronze Faucet Detail -->
+  <path d="M400 350 L400 315 Q400 300 415 300 L422 300 L422 315" fill="none" stroke="#8C6D46" stroke-width="5" stroke-linecap="round" />
+  <!-- Hardwood Flooring Planks -->
+  <rect x="0" y="515" width="800" height="85" fill="#D5BC9D" />
+  <line x1="0" y1="515" x2="800" y2="515" stroke="#1F252B" stroke-width="2" />
+</svg>

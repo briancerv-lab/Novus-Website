@@ -1,0 +1,6 @@
+{
+  "name": "Novus Construction Inc.",
+  "description": "Explore residential and commercial construction with Novus Construction Inc. Serving Southern California with ADUs, additions, remodels, and tenant improvements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

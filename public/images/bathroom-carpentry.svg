@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bgBath" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECE9E2" />
+      <stop offset="100%" stop-color="#DAD4C8" />
+    </linearGradient>
+    <linearGradient id="vanityOak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B6895B" />
+      <stop offset="100%" stop-color="#8F653C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgBath)" />
+  <!-- Large-Format Limestone Tile Grid -->
+  <g stroke="#C5BEB0" stroke-width="1.5">
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="450" x2="800" y2="450" />
+    <line x1="200" y1="0" x2="200" y2="480" />
+    <line x1="400" y1="0" x2="400" y2="480" />
+    <line x1="600" y1="0" x2="600" y2="480" />
+  </g>
+  <!-- Frameless Walk-In Shower Enclosure (Left) -->
+  <rect x="70" y="60" width="250" height="420" fill="#FFFFFF" fill-opacity="0.35" stroke="#34424F" stroke-width="3" />
+  <!-- Shower Niche & Brushed Bronze Fixture -->
+  <rect x="120" y="180" width="130" height="70" fill="#CFC8BA" stroke="#8C6D46" stroke-width="2" />
+  <line x1="185" y1="60" x2="185" y2="105" stroke="#8C6D46" stroke-width="5" />
+  <rect x="160" y="105" width="50" height="8" fill="#8C6D46" />
+  <!-- Custom Floating White Oak Vanity & Mirror (Right) -->
+  <rect x="390" y="95" width="310" height="175" rx="4" fill="#DCE4EA" stroke="#8C6D46" stroke-width="5" />
+  <!-- Wall Sconces -->
+  <rect x="360" y="150" width="12" height="55" fill="#FFF8E7" stroke="#8C6D46" stroke-width="2" />
+  <rect x="718" y="150" width="12" height="55" fill="#FFF8E7" stroke="#8C6D46" stroke-width="2" />
+  <!-- Stone Countertop & Floating Vanity -->
+  <rect x="365" y="315" width="360" height="22" fill="#FAF9F6" stroke="#C5BEB0" stroke-width="2" />
+  <rect x="370" y="337" width="350" height="95" fill="url(#vanityOak)" stroke="#6B4928" stroke-width="2" />
+  <line x1="486" y1="337" x2="486" y2="432" stroke="#5A3C1E" stroke-width="2" />
+  <line x1="602" y1="337" x2="602" y2="432" stroke="#5A3C1E" stroke-width="2" />
+  <!-- Floor Surface -->
+  <rect x="0" y="480" width="800" height="120" fill="#C9C2B4" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#8C6D46" stroke-width="2" />
+</svg>
